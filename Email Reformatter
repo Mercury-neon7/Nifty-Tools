@@ -1,0 +1,5 @@
+text = input("Emails: ")
+text = text.replace(",", "\n")
+print(text)
+count = text.count("®")
+print(count)

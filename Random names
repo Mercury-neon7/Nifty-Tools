@@ -1,6 +1,6 @@
 from random import choice
 response = input("Names: ")
-names = response.split（"'"）
+names = response.split（","）
 name = choice(names)
 print(name)
 names. remove(name)

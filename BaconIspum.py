@@ -7,4 +7,4 @@ url = 'https://baconipsum.com/api/?type=all-meat&sentences=' + sentences
 response = get(url)
 paragraphs = response.json()
 paragraph = paragraphs[0]
-print(paragraph
+print(paragraph)

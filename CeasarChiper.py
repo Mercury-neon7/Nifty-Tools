@@ -9,7 +9,7 @@ def cipher(original):
         if letter in mapping:
             new_letter = mapping[letter]
         else:
-            new_letter = letter  # If the letter is not in the mapping, keep it unchanged
+            new_letter = letter  # If the letter is not  in the mapping, keep it unchanged
         text = text + new_letter
     return text
 
